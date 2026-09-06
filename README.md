@@ -1,6 +1,6 @@
 # Driftshore
 
-Original IP subtropical open-world vertical slice for **Unreal Engine 5.4+**. Neon nightlife, marinas, wetlands, and highway strips around the fictional port metro **Suncove**.
+Original IP subtropical open-world vertical slice for **Unreal Engine 5.8.2**. Neon nightlife, marinas, wetlands, and highway strips around the fictional port metro **Suncove**.
 
 **Original IP — not affiliated with Rockstar.**
 
@@ -10,14 +10,14 @@ A compile-oriented C++ scaffold: modules, game mode, third-person character stub
 
 ## Requirements
 
-- Unreal Engine **5.4+** (Visual Studio 2022 on Windows, or matching toolchain on Linux/macOS)
+- Unreal Engine **5.8.2** (Visual Studio 2022 on Windows, or matching toolchain on Linux/macOS)
 - Git
 
 ## First run
 
 1. Clone this repository.
 2. Right-click `Driftshore.uproject` → **Generate Visual Studio project files** (or run the engine’s generate-project-files workflow on your platform).
-3. Open `Driftshore.uproject` in UE 5.4+.
+3. Open `Driftshore.uproject` in UE 5.8.2.
 4. Let the editor compile the `Driftshore` / `DriftshoreEditor` modules on first launch.
 5. Create a World Partition map under `Content/Maps/` named `Suncove_VerticalSlice` (or update `Config/DefaultEngine.ini` to match your map path).
 6. Create Enhanced Input assets under `Content/Input/` and wire them to `ADSCharacter` / `ADSPlayerController` as noted in source comments.
