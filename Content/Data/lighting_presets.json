@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "notes": "Author as directional light + skylight + exponential height fog + post process in-editor. Values are design targets, not baked .uassets.",
+  "presets": [
+    {
+      "id": "pierline_dawn",
+      "display_name": "Pierline Dawn",
+      "time_hours": 6.5,
+      "sun_intensity": 4.0,
+      "sun_temp_kelvin": 4500,
+      "skylight_intensity": 0.8,
+      "fog_density": 0.02,
+      "neon_emissive_mul": 0.35,
+      "mood": "Soft gold over wet boards; HDRI klippad_sunrise_1 as reference",
+      "hdri_hint": "hdri/klippad_sunrise_1_1k.hdr"
+    },
+    {
+      "id": "pierline_noon",
+      "display_name": "Pierline Noon",
+      "time_hours": 12.5,
+      "sun_intensity": 10.0,
+      "sun_temp_kelvin": 5500,
+      "skylight_intensity": 1.2,
+      "fog_density": 0.008,
+      "neon_emissive_mul": 0.1,
+      "mood": "Harsh subtropical contrast; bleached asphalt"
+    },
+    {
+      "id": "pierline_golden",
+      "display_name": "Pierline Golden Hour",
+      "time_hours": 18.0,
+      "sun_intensity": 6.0,
+      "sun_temp_kelvin": 3800,
+      "skylight_intensity": 0.9,
+      "fog_density": 0.015,
+      "neon_emissive_mul": 0.7,
+      "mood": "Warm long shadows; neon beginning to compete"
+    },
+    {
+      "id": "pierline_neon_night",
+      "display_name": "Pierline Neon Night",
+      "time_hours": 22.0,
+      "sun_intensity": 0.05,
+      "sun_temp_kelvin": 6500,
+      "skylight_intensity": 0.15,
+      "fog_density": 0.035,
+      "neon_emissive_mul": 1.4,
+      "mood": "Humid magenta/cyan quay; Pressure chatter more audible"
+    }
+  ]
+}

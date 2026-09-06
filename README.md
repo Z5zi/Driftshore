@@ -28,12 +28,23 @@ A compile-oriented C++ scaffold: modules, game mode, third-person character stub
 ```
 Driftshore.uproject
 Config/                 DefaultEngine / DefaultInput / DefaultGame
-Content/                Folder stubs only (see Content/README.md)
+Content/                Maps, Environment/Pierline|Shared, Materials, Data, …
 Source/Driftshore/      Runtime C++ module
 Source/DriftshoreEditor/ Editor module stub
 Docs/                   Prototype plan
 DESIGN.md               Pitch, pillars, systems
 ```
+
+## Large assets (Hugging Face)
+
+Textures, Pierline heightmap seed, and HDRI live in the public dataset:
+
+https://huggingface.co/datasets/Reticule/Driftshore-assets
+
+```bash
+hf download Reticule/Driftshore-assets --repo-type dataset --local-dir ./Driftshore-assets
+```
+Import steps: `Docs/ASSETS_HF.md`. Environment breakdown: `Docs/PIERLINE_MARINA.md`.
 
 ## Honesty about content
 

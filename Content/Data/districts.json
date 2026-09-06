@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "world": "Suncove",
+  "districts": [
+    {
+      "id": "pierline_marina",
+      "display_name": "Pierline Marina",
+      "role": "vertical_slice_hub",
+      "bounds_hint_m": { "min_x": -400, "max_x": 400, "min_y": -500, "max_y": 300, "min_z": -5, "max_z": 40 },
+      "pressure_decay_bias": 0.85,
+      "default_traffic_profile": "marina_tourist",
+      "landmarks": ["Neon Quay", "Slip B", "Pier 9 Warehouse", "Tideglass Bar", "Harbor Master Booth"]
+    },
+    {
+      "id": "causeway_strip",
+      "display_name": "Causeway Strip",
+      "role": "transit_chase_sandbox",
+      "bounds_hint_m": { "min_x": 350, "max_x": 1200, "min_y": -200, "max_y": 200, "min_z": 0, "max_z": 30 },
+      "pressure_decay_bias": 1.0,
+      "default_traffic_profile": "highway_light",
+      "landmarks": ["Salt Motel", "Fuel Plaza 7", "Causeway Overpass"]
+    },
+    {
+      "id": "mangrove_reach",
+      "display_name": "Mangrove Reach",
+      "role": "stealth_low_pressure",
+      "bounds_hint_m": { "min_x": -900, "max_x": -350, "min_y": -100, "max_y": 600, "min_z": -2, "max_z": 25 },
+      "pressure_decay_bias": 1.4,
+      "default_traffic_profile": "wetlands_sparse",
+      "landmarks": ["Stilt Walk Boardwalk", "Trailer Cluster North", "Radio Relay Shed"]
+    },
+    {
+      "id": "glass_harbor",
+      "display_name": "Glass Harbor",
+      "role": "post_slice_density",
+      "bounds_hint_m": { "min_x": -200, "max_x": 500, "min_y": 250, "max_y": 900, "min_z": 0, "max_z": 120 },
+      "pressure_decay_bias": 0.7,
+      "default_traffic_profile": "downtown_night",
+      "landmarks": ["Night Market Arcade", "Glass Spire Plaza"]
+    },
+    {
+      "id": "outer_keys",
+      "display_name": "Outer Keys",
+      "role": "post_slice_smuggling",
+      "bounds_hint_m": { "min_x": -2000, "max_x": -900, "min_y": -800, "max_y": 200, "min_z": -5, "max_z": 50 },
+      "pressure_decay_bias": 1.6,
+      "default_traffic_profile": "keys_empty",
+      "landmarks": ["Relay Tower Key", "Quiet Cove"]
+    }
+  ]
+}

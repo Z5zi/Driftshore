@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "profiles": [
+    {
+      "id": "marina_tourist",
+      "district_id": "pierline_marina",
+      "vehicle_per_km": 4.0,
+      "pedestrian_per_100m2": 0.35,
+      "boat_idle_slots": 6,
+      "patrol_stub_count": 1,
+      "tod_multipliers": {
+        "pierline_dawn": 0.4,
+        "pierline_noon": 1.0,
+        "pierline_golden": 1.2,
+        "pierline_neon_night": 1.6
+      },
+      "notes": "Tourists peak at neon night; keep boat traffic cosmetic in slice."
+    },
+    {
+      "id": "highway_light",
+      "district_id": "causeway_strip",
+      "vehicle_per_km": 12.0,
+      "pedestrian_per_100m2": 0.05,
+      "boat_idle_slots": 0,
+      "patrol_stub_count": 2,
+      "tod_multipliers": {
+        "pierline_dawn": 0.6,
+        "pierline_noon": 1.0,
+        "pierline_golden": 1.3,
+        "pierline_neon_night": 0.8
+      },
+      "notes": "Sparse but faster vehicles; chase sandbox later."
+    },
+    {
+      "id": "wetlands_sparse",
+      "district_id": "mangrove_reach",
+      "vehicle_per_km": 0.5,
+      "pedestrian_per_100m2": 0.02,
+      "boat_idle_slots": 1,
+      "patrol_stub_count": 0,
+      "tod_multipliers": {
+        "pierline_dawn": 0.3,
+        "pierline_noon": 0.5,
+        "pierline_golden": 0.4,
+        "pierline_neon_night": 0.2
+      },
+      "notes": "Quiet routes for Pressure decay."
+    },
+    {
+      "id": "downtown_night",
+      "district_id": "glass_harbor",
+      "vehicle_per_km": 18.0,
+      "pedestrian_per_100m2": 0.8,
+      "boat_idle_slots": 0,
+      "patrol_stub_count": 3,
+      "tod_multipliers": {
+        "pierline_dawn": 0.3,
+        "pierline_noon": 0.9,
+        "pierline_golden": 1.1,
+        "pierline_neon_night": 1.8
+      },
+      "notes": "Post-slice only."
+    },
+    {
+      "id": "keys_empty",
+      "district_id": "outer_keys",
+      "vehicle_per_km": 0.2,
+      "pedestrian_per_100m2": 0.01,
+      "boat_idle_slots": 2,
+      "patrol_stub_count": 0,
+      "tod_multipliers": {
+        "pierline_dawn": 0.2,
+        "pierline_noon": 0.3,
+        "pierline_golden": 0.3,
+        "pierline_neon_night": 0.1
+      },
+      "notes": "Post-slice smuggling lanes."
+    }
+  ]
+}

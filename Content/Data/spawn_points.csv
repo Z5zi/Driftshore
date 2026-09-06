@@ -1,0 +1,8 @@
+id,district_id,category,x,y,z,yaw_deg,notes
+player_start_pierline,pierline_marina,player,-12.0,48.0,2.5,90.0,Slip B boardwalk — Week-1 start
+vehicle_runabout_01,pierline_marina,vehicle,22.0,36.0,1.2,15.0,Tied at Slip A finger
+mission_crate_slip_b,pierline_marina,mission_pickup,8.0,52.0,2.0,0.0,Sealed crate for Pier 9 Drop
+mission_drop_alley,pierline_marina,mission_drop,-95.0,18.0,2.2,180.0,Pier 9 warehouse alley
+patrol_volume_neon_quay,pierline_marina,pressure_trigger,40.0,-20.0,2.0,0.0,Stub patrol volume near Neon Quay
+player_start_causeway,causeway_strip,player,620.0,0.0,4.0,0.0,Optional transit spawn (post-slice)
+mangrove_quiet_entry,mangrove_reach,player,-520.0,120.0,3.0,270.0,Low-Pressure route entry

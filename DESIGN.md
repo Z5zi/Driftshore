@@ -54,6 +54,20 @@ Original naming: **Pressure**. Builds from loud crimes, vehicle collisions with 
 ### Score hook
 Optional bonus for silent delivery (Pressure stays ≤ 1) or fast delivery under a soft timer. Displayed as a simple end-of-mission summary, not a full GTA-style star system.
 
+## Pierline Marina (vertical slice environment)
+
+Detailed block plan, landmarks, lighting mood, and traffic density notes live in **`Docs/PIERLINE_MARINA.md`**.
+
+Data-driven tables (districts, spawns, POIs, props, lighting presets, traffic profiles): **`Content/Data/`**.
+
+Binary texture / terrain / HDRI seeds: Hugging Face dataset **Reticule/Driftshore-assets** — see **`Docs/ASSETS_HF.md`**.
+
+### Quick landmark list
+- Neon Quay, Slip B, Pier 9 Warehouse Alley, Tideglass Bar, Harbor Master Booth
+
+### Lighting presets (ids)
+`pierline_dawn`, `pierline_noon`, `pierline_golden`, `pierline_neon_night`
+
 ## Out of scope (prototype)
 
 Full multiplayer, deep RPG progression, licensed music, city-wide AI schedules, or any third-party IP assets.

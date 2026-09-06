@@ -45,7 +45,8 @@ Thumbs.db
 *.pem
 *.key
 
-# Large local-only content (keep Content/README.md)
+# Large local-only content (keep READMEs + Data tables)
 Content/**/*.uasset
 Content/**/*.umap
-!Content/README.md
+!Content/**/README.md
+!Content/Data/**

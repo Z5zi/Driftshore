@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "pois": [
+    {
+      "id": "poi_neon_quay",
+      "display_name": "Neon Quay",
+      "district_id": "pierline_marina",
+      "location": { "x": 55.0, "y": -35.0, "z": 2.5 },
+      "interact_tag": "Landmark.Lookout",
+      "mission_relevance": "ambient",
+      "description": "Tourist boardwalk with neon bar façades; high pedestrian density at night."
+    },
+    {
+      "id": "poi_slip_b",
+      "display_name": "Slip B",
+      "district_id": "pierline_marina",
+      "location": { "x": 8.0, "y": 52.0, "z": 2.0 },
+      "interact_tag": "Mission.Pickup",
+      "mission_relevance": "pier9_drop",
+      "description": "Boat slip where the sealed crate waits for Pier 9 Drop."
+    },
+    {
+      "id": "poi_pier9_warehouse",
+      "display_name": "Pier 9 Warehouse Alley",
+      "district_id": "pierline_marina",
+      "location": { "x": -95.0, "y": 18.0, "z": 2.2 },
+      "interact_tag": "Mission.Dropoff",
+      "mission_relevance": "pier9_drop",
+      "description": "Delivery alley behind Pier 9; tight vehicle clearance."
+    },
+    {
+      "id": "poi_tideglass_bar",
+      "display_name": "Tideglass Bar",
+      "district_id": "pierline_marina",
+      "location": { "x": 70.0, "y": -10.0, "z": 3.0 },
+      "interact_tag": "Social.Interior",
+      "mission_relevance": "contact_rook",
+      "description": "Neon cocktail bar; Rook contact beat for Week-2 flavor."
+    },
+    {
+      "id": "poi_harbor_master",
+      "display_name": "Harbor Master Booth",
+      "district_id": "pierline_marina",
+      "location": { "x": -40.0, "y": 80.0, "z": 3.5 },
+      "interact_tag": "World.Info",
+      "mission_relevance": "lore",
+      "description": "Small booth overlooking the slips; Pressure radio chatter source."
+    },
+    {
+      "id": "poi_salt_motel",
+      "display_name": "Salt Motel",
+      "district_id": "causeway_strip",
+      "location": { "x": 780.0, "y": 40.0, "z": 5.0 },
+      "interact_tag": "Landmark.Lookout",
+      "mission_relevance": "post_slice",
+      "description": "Faded motel along the highway ribbon."
+    }
+  ]
+}

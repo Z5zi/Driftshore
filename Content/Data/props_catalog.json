@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "district_focus": "pierline_marina",
+  "categories": [
+    {
+      "id": "docks_structure",
+      "label": "Dock structure",
+      "examples": ["pier_finger_10m", "gangway_ramp", "bollard_cleat", "rubber_fender"],
+      "preferred_materials": ["M_PierWood", "M_DockMetal"],
+      "density_hint": "high_along_slips"
+    },
+    {
+      "id": "marina_clutter",
+      "label": "Marina clutter",
+      "examples": ["crate_sealed_mission", "rope_coil", "life_ring_post", "fuel_jerry_can", "fish_cooler"],
+      "preferred_materials": ["M_PierWood", "M_Concrete_Worn"],
+      "density_hint": "medium_slip_edges"
+    },
+    {
+      "id": "neon_signage",
+      "label": "Neon signage",
+      "examples": ["sign_tideglass", "sign_bait_shop", "sign_slip_letters", "awning_neon_strip"],
+      "preferred_materials": ["M_EmissiveNeon_Master"],
+      "density_hint": "neon_quay_cluster"
+    },
+    {
+      "id": "street_furniture",
+      "label": "Street furniture",
+      "examples": ["bench_boardwalk", "lamp_post_marina", "trash_bin_metal", "ticket_kiosk"],
+      "preferred_materials": ["M_DockMetal", "M_Concrete_Worn"],
+      "density_hint": "tourist_paths"
+    },
+    {
+      "id": "vehicles_static",
+      "label": "Static vehicles / boats",
+      "examples": ["boat_tied_small", "trailer_boat_empty", "scooter_parked"],
+      "preferred_materials": [],
+      "density_hint": "low_background"
+    },
+    {
+      "id": "vegetation",
+      "label": "Coastal vegetation",
+      "examples": ["palm_planter", "mangrove_edge_card", "sea_grass_clump"],
+      "preferred_materials": [],
+      "density_hint": "edges_and_planters"
+    }
+  ]
+}
