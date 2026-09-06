@@ -1,0 +1,51 @@
+# Unreal Engine 5
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+.vs/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+*.code-workspace
+
+# Compiled / generated
+*.pdb
+*.dll
+*.exe
+*.dylib
+*.so
+*.a
+*.lib
+*.ipch
+*.obj
+*.o
+
+# Local / OS
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*~
+
+# Rider / CLion
+.idea/
+*.DotSettings.user
+
+# Local secrets / env
+.env
+*.pem
+*.key
+
+# Large local-only content (keep Content/README.md)
+Content/**/*.uasset
+Content/**/*.umap
+!Content/README.md
